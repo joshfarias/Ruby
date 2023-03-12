@@ -21,7 +21,8 @@ Below is an screenshot showing the program in action:
   - `JSON` to parse through the response from OpenWeather's API
   - `dotenv` to load the API key from an enviornment variable
 These libraries can be installed using the following gem command: 
-- `gem install net-http json dotenv`
+
+`gem install net-http json dotenv`
 
 - The program has the API key set as an environment variable by default, the code can however be modified in the following ways so that the user can set up their API key differently:
   - Use a configuration file to store the API key
