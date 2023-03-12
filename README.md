@@ -9,7 +9,7 @@ Repo for Ruby programming projects.
 
 This program uses [OpenWeather's API](https://openweathermap.org/api) to retrieve and parse through JSON weather data for a given city specified by the user. It uses the `net/http` library to make HTTP requests to the OpenWeather server and `JSON` to parse through the JSON response from the API. The API key is loaded from a preset enviornment variable and is accessed using the `dotenv` library.
 
-Below is an screenshot showing the program in action:
+Below is a screenshot showing the program in action:
 
 <h1>
 <img src="https://github.com/joshfarias/Ruby/blob/main/images/openweather.png" alt="openweather" height="400">
